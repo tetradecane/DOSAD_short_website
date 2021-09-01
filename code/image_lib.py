@@ -63,5 +63,4 @@ def resize_and_crop(image, target_size=target_size_best, resample_filter=Image.L
 
 
 if __name__ == "__main__":
-    # noinspection PyTypeChecker
-    print(pearson("1.png", "2.png"))
+    pass
