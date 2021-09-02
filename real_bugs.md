@@ -4,7 +4,7 @@ Here list the 20 real bugs detected by DOSAD.
 
 Clicking the app name leads you to the introduction page in Google Play.
 
-For each app: The left picture is an outdated screenshot in Google Play. The right picture is the corresponding screenshot in the brand new version. The pictures are all resized to $1080\times1920$ and then cropped.
+For each app: The left picture is an outdated screenshot in Google Play. The right picture is the corresponding screenshot in the brand new version. The pictures are all resized to 1080×1920 and then cropped.
 
 ## 1. [	Frequency Generator - Audio Tools & Ultrasound](https://play.google.com/store/apps/details?id=com.boedec.hoel.frequencygenerator)
 
