@@ -120,7 +120,6 @@ if __name__ == '__main__':
         app = App(i_path_apk)
         if int(app.versionCode) > latest_versionCode:
             latest_versionCode = int(app.versionCode)
-        # continue
 
         # start capturing
         app.install()

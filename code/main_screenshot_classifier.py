@@ -134,6 +134,17 @@ app_packages = {
     "BBTAN": "com.crater.bbtan",
 }
 
+def print_data_of_apps():
+    print()
+
+    for app_key in app_packages.keys():
+        print('App: {}'.format(app_key))
+        sc_classifier = ScreenshotClassifier(
+            classifier=RandomForestClassifier(),
+            folder=os.path.join(folder_screenshots, app_packages[app_key])
+        )
+        ground_truth, predict = sc_classifier.k_fold_cross_validation(k=10)
+
 dict_classifiers = {
     '1NN': KNeighborsClassifier(n_neighbors=1),
     '3NN': KNeighborsClassifier(n_neighbors=3),
@@ -143,7 +154,6 @@ dict_classifiers = {
     'SVC': SVC(),
     'DT': DecisionTreeClassifier(),
 }
-
 
 def print_data_of_classifiers():
     print()
@@ -232,8 +242,9 @@ def predict_app(package_name, load_model=True):
 
 
 if __name__ == '__main__':
+    print_data_of_apps()
     # print_data_of_classifiers()
     # print_data_of_resampling_filters()
     # print_data_of_target_resolutions()
 
-    predict_app(package_name)
+    # predict_app(package_name)

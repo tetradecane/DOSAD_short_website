@@ -1,6 +1,6 @@
 # for App Screenshot Extractor
 folder_apks = "apks"
-folder_screenshots = "screenshots"
+folder_screenshots = "screenshots_deduplicated"
 running_minutes = 5
 throttle = 300
 
