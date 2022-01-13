@@ -6,8 +6,8 @@ In this paper, we propose an approach called DOSAD, *i.e.*, <u>D</u>etecting <u>
 
 ## Repository
 
-The folder "code" is the source code, including our *App Screenshot Extractor*, *Document Screenshot Extractor*, *Screenshot Classifier*, program for drawing figures and other components.
+The folder "code": the source code, including our *App Screenshot Extractor*, *Document Screenshot Extractor*, *Screenshot Classifier*, program for drawing figures and other components.
 
-The folder "dataset" is the dataset of all captured screenshots used in our EMPIRICAL EVALUATION.
+The folder "dataset": the dataset of all captured screenshots used in our EVALUATION ON BENCHMARK.
 
-The folder "real_bugs" and the file "real_bugs.md" are details of 20 detected real bugs (IN-THE-WILD EVALUATION).
+The folder "real_bugs" and the file "real_bugs.md": details of 20 detected real bugs (IN-THE-WILD EVALUATION).
