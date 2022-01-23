@@ -10,4 +10,4 @@ The folder "code": the source code, including our *App Screenshot Extractor*, *D
 
 The folder "dataset": the dataset of all captured screenshots used in our EVALUATION ON BENCHMARK.
 
-The folder "real_bugs" and the file "real_bugs.md": details of 20 detected real bugs (IN-THE-WILD EVALUATION).
+The folder "real_bugs" and the file "real_bugs.md": details of 20 detected real bugs (EVALUATION IN THE WILD).
